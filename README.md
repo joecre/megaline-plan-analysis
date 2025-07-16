@@ -37,4 +37,6 @@ All outputs and visualizations have been preserved for review. Attempting to re-
 
 [Open in Google Colab](https://colab.research.google.com/github/joecre/megaline-plan-analysis/blob/main/megaline_plan_analysis.ipynb)
 
-[View the Code on GitHub](https://github.com/joecre/megaline_plan_analysis)
+[View the Code on GitHub](https://github.com/joecre/megaline-plan-analysis)
+
+
