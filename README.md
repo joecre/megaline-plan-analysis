@@ -2,16 +2,22 @@
 
 ## Overview
 
-I was tasked with analyzing revenue data for Megaline, a telecom company offering two prepaid plans: Surf and Ultimate. The goal was to determine which plan generates more revenue to help guide future advertising strategy.
+Megaline, a telecom provider, offers two prepaid mobile plans — Surf and Ultimate. The company wanted to determine which plan generates more revenue in order to guide future marketing and advertising investments.  
 
-Using data from 2018 on 500 clients, I explored user behavior based on calls, text messages, and internet usage. I calculated monthly revenue per user and used hypothesis testing to compare average revenue between the two plans and across regions.
+Using 2018 data from 500 clients, I analyzed call, text, and internet usage patterns to calculate monthly revenue per user. I also used statistical hypothesis testing to compare revenue performance between the two plans and across regions.
+
+This project focuses on data cleaning, feature engineering, visualization, and statistical testing to deliver actionable insights for business decision-making.
+
+---
 
 ## Key Insights
 
-- The Ultimate plan generates higher average revenue per user than the Surf plan.
-- Surf users incur more overage charges, contributing to higher revenue variability.
-- No statistically significant revenue difference was found between NY–NJ region users and others.
-- Both plans show similar patterns in call and message usage, while Ultimate users tend to use slightly more internet data.
+- **Ultimate plan customers generate higher average monthly revenue** than Surf customers.  
+- **Surf users tend to incur more overage charges**, creating higher variability in their monthly revenue.  
+- **No statistically significant revenue difference** was found between customers in the NY–NJ region and other regions.  
+- Usage patterns for calls and messages are similar across both plans, while **Ultimate users consume slightly more internet data** on average.
+
+---
 
 ## Tools and Technologies
 
@@ -21,22 +27,24 @@ Using data from 2018 on 500 clients, I explored user behavior based on calls, te
 - Matplotlib  
 - Seaborn  
 - SciPy  
-- Jupyter Notebook
+- Jupyter Notebook  
+
+---
 
 ## Files
 
-- `megaline-plan-analysis.ipynb` — Full notebook with data cleaning, feature engineering, visualizations, and statistical testing  
-- `README.md` — This file, summarizing the project
+- `megaline_plan_analysis_portfolio_FINAL_clean.ipynb` — Complete notebook with data cleaning, feature engineering, visualizations, and hypothesis testing.  
+- `README.md` — This file, summarizing the project.  
+
+---
 
 ## Note on Data
 
-This notebook was developed on the TripleTen platform using internal datasets that are not included in this repository.  
+This analysis was completed on the TripleTen platform using internal datasets, which are not publicly available.  
 All outputs and visualizations have been preserved for review. Attempting to re-run the notebook locally will result in missing file errors.
+
+---
 
 ## View the Notebook
 
-[Open in Google Colab](https://colab.research.google.com/github/joecre/megaline-plan-analysis/blob/main/megaline_plan_analysis.ipynb)
-
 [View the Code on GitHub](https://github.com/joecre/megaline-plan-analysis)
-
-
